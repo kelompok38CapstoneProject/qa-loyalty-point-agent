@@ -1,0 +1,11 @@
+starter\Transactions\GetTransactions.class
+starter\Roleadmin\GetRoleadmin.class
+starter\stepdefinitions\RoleadminSteps.class
+starter\stepdefinitions\CommentSteps.class
+starter\LoginAdmin\Post.class
+starter\CucumberTestSuite.class
+starter\stepdefinitions\ProductSteps.class
+starter\stepdefinitions\LoginAdminSteps.class
+starter\Product\PostProduct.class
+starter\stepdefinitions\TransactionSteps.class
+starter\Comment\GetComment.class

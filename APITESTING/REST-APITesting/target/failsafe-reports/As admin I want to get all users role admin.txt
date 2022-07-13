@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: As admin I want to get all users role admin
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.365 s <<< FAILURE! - in As admin I want to get all users role admin
+As admin I want to get all users role admin.GET - As admin I want to get all users role admin  Time elapsed: 5.365 s  <<< ERROR!
+java.lang.NullPointerException
+
