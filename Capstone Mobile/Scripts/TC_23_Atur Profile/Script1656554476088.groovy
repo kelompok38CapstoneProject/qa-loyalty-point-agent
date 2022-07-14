@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Beranda/Akun'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Akun/Atur Profile'), 0)
+Mobile.tap(findTestObject('Versi3/Akun Menu/Atur Profile'), 0)
 
 Mobile.tap(findTestObject('Akun/Atur Profile Page/android.widget.EditText - Nama Lengkap'), 0)
 
