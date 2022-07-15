@@ -23,27 +23,28 @@ Mobile.tap(findTestObject('Welcome Page/Mulai'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Register/android.widget.EditText - Nama Lengkap'), 0)
+for (int i = 0; i<15; i++) {
+    Mobile.tap(findTestObject('Register/android.widget.EditText - Nama Lengkap'), 0)
 
-Mobile.setText(findTestObject('Register/android.widget.EditText - Nama Lengkap'), 'agungadmin', 0)
+    Mobile.setText(findTestObject('Register/android.widget.EditText - Nama Lengkap'), NamaLengkap[i], 0)
 
-Mobile.tap(findTestObject('Register/android.widget.EditText - Email'), 0)
+    Mobile.tap(findTestObject('Register/android.widget.EditText - Email'), 0)
 
-Mobile.setText(findTestObject('Register/android.widget.EditText - Email'), 'adminadmin@gmail.com', 0)
+    Mobile.setText(findTestObject('Register/android.widget.EditText - Email'), Email[i], 0)
 
-Mobile.tap(findTestObject('Register/android.widget.EditText - Nomor Telephone'), 0)
+    Mobile.tap(findTestObject('Register/android.widget.EditText - Nomor Telephone'), 0)
 
-Mobile.setText(findTestObject('Register/android.widget.EditText - Nomor Telephone'), '081312341234', 0)
+    Mobile.setText(findTestObject('Register/android.widget.EditText - Nomor Telephone'), '081312341234', 0)
 
-Mobile.tap(findTestObject('Login/android.widget.EditText - Password'), 0)
+    Mobile.tap(findTestObject('Login/android.widget.EditText - Password'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditText - Password'), 'adminadmin', 0)
+    Mobile.setText(findTestObject('Login/android.widget.EditText - Password'), 'adminadmin', 0)
 
-Mobile.tap(findTestObject('Register/android.widget.EditText - Konfirmasi Password'), 0)
+    Mobile.tap(findTestObject('Register/android.widget.EditText - Konfirmasi Password'), 0)
 
-Mobile.setText(findTestObject('Register/android.widget.EditText - Konfirmasi Password'), 'adminadmin', 0)
+    Mobile.setText(findTestObject('Register/android.widget.EditText - Konfirmasi Password'), 'adminadmin', 0)
 
-Mobile.hideKeyboard()
+    Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Register/Daftar'), 0)
-
+    Mobile.tap(findTestObject('Register/Daftar'), 0)
+}

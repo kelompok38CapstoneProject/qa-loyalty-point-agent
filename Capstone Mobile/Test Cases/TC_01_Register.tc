@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5ba8ed73-30fd-4c4e-b812-617c7842f59c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f05170cd-44f0-40b8-ad44-cab7fd4aff9f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b816c0a-bd28-4976-813d-4e9cd1ba335f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Agung Pratama', '123456', 'Agung Pratama', 'Agung Pratama', '', ' ', '', 'Agung Pratama', 'Agung Pratama', 'Agung Pratama', 'Agung Pratama', 'Agung Pratama']</defaultValue>
+      <description></description>
+      <id>f05170cd-44f0-40b8-ad44-cab7fd4aff9f</id>
+      <masked>false</masked>
+      <name>NamaLengkap</name>
+   </variable>
+   <variable>
+      <defaultValue>['agung.com', 'agung@gmail.com', '123', 'agung@gmail.com', '', ' ', 'agung@gmail.com', '', 'agung@gmail.com', 'agung@gmail.com', 'agung@gmail.com', 'agung@gmail.com']</defaultValue>
+      <description></description>
+      <id>3b816c0a-bd28-4976-813d-4e9cd1ba335f</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
 </TestCaseEntity>
