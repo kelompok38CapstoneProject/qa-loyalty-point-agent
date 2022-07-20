@@ -8,10 +8,10 @@ import org.openqa.selenium.By;
 public class UsersPage extends PageObject {
 
     private By adminClickUsersButton(){
-        return By.className("");
+        return By.xpath("(//div[@class='d-flex align-items-center'])[4]");
     }
     private By adminCanSeeListOfUsers(){
-        return By.xpath(" ");
+        return By.xpath("(//div[@class='(//div[@class='container'])");
     }
 
     @Step

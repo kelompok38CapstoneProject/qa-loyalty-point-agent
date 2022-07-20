@@ -5,64 +5,56 @@ import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;
 
 public class LoginPage extends PageObject {
-//Login1
-    private By adminOnLoginPage(){
-        return By.xpath("(//div[@class='bg-login'])");
+    //Login1
+    private By adminOnLoginPage() {
+        return By.xpath("(//div[@class='row d-flex justify-content-center align-items-center h-100'])");
     }
-    private By adminInputValidUsername(){
+
+    private By adminInputValidUsername() {
         return By.id("email");
     }
-    private By adminInputValidPassword(){
+
+    private By adminInputValidPassword() {
         return By.id("password");
     }
-    private By adminClickLoginButton(){
+
+    private By adminClickLoginButton() {
         return By.className("btn btn-block text-white py-2 rounded-md login-btn");
     }
-    private By adminSuccessLogin(){
+
+    private By adminSuccessLogin() {
         return By.xpath("(//span[@class='text-xl'])");
     }
 
     @Step
-    public void openPage(){
-        open();
+    public void openPage() {
+        openUrl("https://transcendent-centaur-b1027d.netlify.app/login/");
+
     }
+
     @Step
-    public boolean OnLoginPage(){
+    public boolean OnLoginPage() {
         return $(adminOnLoginPage()).isDisplayed();
     }
+
     @Step
-    public void InputValidUsername(String username){
-         $(adminInputValidUsername()).type(username);
+    public void InputValidUsername(String username) {
+        $(adminInputValidUsername()).type(username);
     }
+
     @Step
-    public void InputValidPassword(String password){
+    public void InputValidPassword(String password) {
         $(adminInputValidPassword()).type(password);
     }
+
     @Step
-    public void ClickLoginButton(){
+    public void ClickLoginButton() {
         $(adminClickLoginButton()).click();
     }
+
     @Step
-    public boolean SuccessLogin(){
+    public boolean SuccessLogin() {
         return $(adminSuccessLogin()).isDisplayed();
     }
-
-//Login2
-    private By adminInputInvalidUsername(){
-    return By.xpath("");
-    }
-    private By adminInputInvalidPassword(){
-        return By.xpath("");
-    }
-
-    @Step
-    public void InputInvalidUsername(String invalidusername){
-        $(adminInputInvalidUsername()).type(invalidusername);
-    }
-    @Step
-    public void InputInvalidPassword(String invalidpassword){
-        $(adminInputInvalidPassword()).type(invalidpassword);
-    }
-
 
 }

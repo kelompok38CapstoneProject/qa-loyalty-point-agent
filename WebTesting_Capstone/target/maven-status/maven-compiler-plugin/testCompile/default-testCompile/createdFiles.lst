@@ -1,3 +1,8 @@
 Starter\Stepdefinition\LoginStep.class
-Starter\CucumberTestSuite.class
+Starter\Stepdefinition\ProductStep.class
+Starter\Page\HomePage.class
+Starter\Stepdefinition\UsersStep.class
+Starter\Page\UsersPage.class
 Starter\Page\LoginPage.class
+Starter\CucumberTestSuite.class
+Starter\Page\ProductPage.class

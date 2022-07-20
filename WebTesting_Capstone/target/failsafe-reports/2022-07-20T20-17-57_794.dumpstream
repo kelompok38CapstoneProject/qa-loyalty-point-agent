@@ -1,0 +1,4 @@
+# Created at 2022-07-20T20:18:00.993
+Boot Manifest-JAR contains absolute paths in classpath 'D:\altera\Capstone\qa-loyalty-point-agent\WebTesting_Capstone\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

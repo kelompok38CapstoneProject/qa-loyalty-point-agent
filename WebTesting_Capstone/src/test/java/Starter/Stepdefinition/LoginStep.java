@@ -11,18 +11,18 @@ public class LoginStep {
     @Steps
     LoginPage loginpage;
 
-//Login1
+    //Login1
     @Given("admin on login page")
     public void adminOnLoginPage() {
         loginpage.openPage();
         loginpage.OnLoginPage();
-        
+
     }
 
     @When("admin input valid username")
     public void adminInputValidUsername() {
         loginpage.InputValidUsername("septienjelinasitio@gmail.com");
-        
+
     }
 
     @And("admin input valid password")
@@ -33,22 +33,11 @@ public class LoginStep {
     @And("admin  click login button")
     public void adminClickLoginButton() {
         loginpage.ClickLoginButton();
-        
+
     }
 
     @Then("admin success login")
     public void adminSuccessLogin() {
         loginpage.SuccessLogin();
-    }
-
-//Login2
-    @When("admin input invalid username")
-    public void adminInputInvalidUsername() {
-        loginpage.InputInvalidUsername("septienjelina");
-    }
-
-    @And("admin input invalid password")
-    public void adminInputInvalidPassword() {
-        loginpage.InputInvalidPassword("septi321");
     }
 }

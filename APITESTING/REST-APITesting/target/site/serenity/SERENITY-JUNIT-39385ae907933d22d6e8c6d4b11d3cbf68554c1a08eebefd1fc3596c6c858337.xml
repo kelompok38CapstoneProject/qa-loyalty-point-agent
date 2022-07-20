@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="As admin I want to get all users role admin" skipped="0" tests="1" time="4.59" timestamp="2022-07-11 08:48:05"><testcase name="GET - As admin I want to get all users role admin"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="As admin I want to get all users role admin" skipped="0" tests="1" time="1.43" timestamp="2022-07-20 10:16:09"><testcase name="GET - As admin I want to get all users role admin"><error type="java.lang.NullPointerException"/><system-err>null&#13;
 net.serenitybdd.rest.SerenityRest.lastResponse(SerenityRest.java:67)&#13;
 net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
 starter.Roleadmin.GetRoleadmin.userReceiveValidHttpResponse200(GetRoleadmin.java:23)&#13;
 starter.stepdefinitions.RoleadminSteps.userReceiveStatusCode(RoleadminSteps.java:27)&#13;
-✽.Admin receive status code 200(file:///D:/altera/CapstoneProject/QA-loyalty-point/APITesting_Septi/REST-APITesting/src/test/resources/api/Roleadmin.feature:6)&#13;
+✽.Admin receive status code 200(file:///D:/altera/Capstone/qa-loyalty-point-agent/APITESTING/REST-APITesting/src/test/resources/api/Roleadmin.feature:6)&#13;
 </system-err></testcase></testsuite>

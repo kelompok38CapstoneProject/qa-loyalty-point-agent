@@ -1,11 +1,5 @@
-D:\altera\CapstoneProject\QA-loyalty-point\APITesting_Septi\REST-APITesting\src\test\java\starter\stepdefinitions\LoginAdminSteps.java
-D:\altera\CapstoneProject\QA-loyalty-point\APITesting_Septi\REST-APITesting\src\test\java\starter\Comment\GetComment.java
-D:\altera\CapstoneProject\QA-loyalty-point\APITesting_Septi\REST-APITesting\src\test\java\starter\Product\PostProduct.java
-D:\altera\CapstoneProject\QA-loyalty-point\APITesting_Septi\REST-APITesting\src\test\java\starter\LoginAdmin\Post.java
-D:\altera\CapstoneProject\QA-loyalty-point\APITesting_Septi\REST-APITesting\src\test\java\starter\stepdefinitions\RoleadminSteps.java
-D:\altera\CapstoneProject\QA-loyalty-point\APITesting_Septi\REST-APITesting\src\test\java\starter\stepdefinitions\TransactionSteps.java
-D:\altera\CapstoneProject\QA-loyalty-point\APITesting_Septi\REST-APITesting\src\test\java\starter\stepdefinitions\ProductSteps.java
-D:\altera\CapstoneProject\QA-loyalty-point\APITesting_Septi\REST-APITesting\src\test\java\starter\stepdefinitions\CommentSteps.java
-D:\altera\CapstoneProject\QA-loyalty-point\APITesting_Septi\REST-APITesting\src\test\java\starter\Transactions\GetTransactions.java
-D:\altera\CapstoneProject\QA-loyalty-point\APITesting_Septi\REST-APITesting\src\test\java\starter\CucumberTestSuite.java
-D:\altera\CapstoneProject\QA-loyalty-point\APITesting_Septi\REST-APITesting\src\test\java\starter\Roleadmin\GetRoleadmin.java
+D:\altera\Capstone\qa-loyalty-point-agent\APITESTING\REST-APITesting\src\test\java\starter\CucumberTestSuite.java
+D:\altera\Capstone\qa-loyalty-point-agent\APITESTING\REST-APITesting\src\test\java\starter\stepdefinitions\RoleadminSteps.java
+D:\altera\Capstone\qa-loyalty-point-agent\APITESTING\REST-APITesting\src\test\java\starter\LoginAdmin\Post.java
+D:\altera\Capstone\qa-loyalty-point-agent\APITESTING\REST-APITesting\src\test\java\starter\stepdefinitions\LoginAdminSteps.java
+D:\altera\Capstone\qa-loyalty-point-agent\APITESTING\REST-APITesting\src\test\java\starter\Roleadmin\GetRoleadmin.java

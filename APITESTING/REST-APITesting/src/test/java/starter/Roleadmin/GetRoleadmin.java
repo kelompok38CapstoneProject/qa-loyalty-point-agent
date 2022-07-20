@@ -6,7 +6,7 @@ import net.thucydides.core.annotations.Step;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class GetRoleadmin {
-    protected static String url = "http://13.229.128.27:8080";
+    protected static String url = "http://13.250.122.4:8080";
 
     @Step("Admin set GET endpoint role admin")
     public String setGetUrlApiEndpointRoleadmin() {
